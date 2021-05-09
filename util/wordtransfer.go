@@ -1,5 +1,5 @@
 package util
-
+//首字母大写
 func UpFirst(words string) string {
 	if words == "" {
 		return ""
@@ -12,6 +12,8 @@ func UpFirst(words string) string {
 
 }
 
+
+//首字母小写
 func LowFirst(word string) string {
 	if word == "" {
 		return ""
@@ -23,7 +25,7 @@ func LowFirst(word string) string {
 	}
 	return string(w)
 }
-
+// 驼峰 转下划线
 func HumpToSnake(word string) string {
 	if word == "" {
 		return ""
@@ -40,7 +42,10 @@ func HumpToSnake(word string) string {
 	return string(res)
 
 
+
 }
+
+//下滑线转驼峰
 func SnakeToWord(word string) string {
 	var res []byte
 	var needUp = false
@@ -59,3 +64,5 @@ func SnakeToWord(word string) string {
 	}
 	return string(res)
 }
+
+
