@@ -4,10 +4,12 @@ import (
 	"fmt"
 	"goUtil/util"
 )
+
 func main() {
-	var str string = "hello_world_App"
+	//var str string = "hello_world_App"
 	//s :=util.Upfirst( (str))
-	fmt.Println(util.SnakeToWord(str))
+	//1tln(util.Md5([]byte(str)))
+	 fmt.Println(util.GetCurrentProjectPath())
 
 	//fmt.Println(str)
 	//fmt.Println(s)
