@@ -1,1 +1,1 @@
-module "goUtil"
+module "github.com/lyr-2000/goUtil"
